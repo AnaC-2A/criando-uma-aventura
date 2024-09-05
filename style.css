@@ -1,5 +1,5 @@
 body {
-    background-color: #e90866;
+    background-color: #1D4221;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
@@ -10,11 +10,24 @@ body {
 }
 
 button {
-    background-color: #7c052d;
+    background-color: #64A712;
     color: white;
     font-family: "Bai Jamjuree", sans-serif;
 }
 
 .passo {
-    display: block;
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
 }
